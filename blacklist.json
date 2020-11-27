@@ -1,0 +1,20 @@
+{
+  "blacklist": [
+    {
+      "content_disposition": "b",
+      "content_type": "a"
+    },
+    {
+      "content_disposition": "*",
+      "content_type": "a"
+    },
+    {
+      "content_disposition": "b",
+      "content_type": "*"
+    },
+    {
+      "content_disposition": "ee",
+      "content_type": "abcd"
+    }
+  ]
+}
