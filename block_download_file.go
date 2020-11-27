@@ -14,10 +14,10 @@ var nginx_config_dir = "/etc/nginx/"
 
 
 type Blacklist struct {
-    Data []User `json:"blacklist"`
+    Data []Item `json:"blacklist"`
 }
 
-type User struct {
+type Item struct {
     Dis   string `json:"content_disposition"`
     Type   string `json:"content_type"`
 }
